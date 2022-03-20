@@ -63,7 +63,8 @@ $(document).ready(function(){
       $(".checkout-info").show();
       $(".grandTotal").html("Kshs " + grandTotal);
       $(".location-info").hide();
-      $(".response").hide();
+      $(".yes-response").hide();
+      $(".no-response").hide();
     });
 
     //On Clicking the Yes Button
@@ -75,13 +76,21 @@ $(document).ready(function(){
       $(".location-info").show();  
     });
   
+    //On Clicking the No Button
+    $(".no-btn").click(function(){
+      $(".no-response").show();
+      $(".delivery-info").hide();
+      $(".location-info").hide();
+      resetDefault();
+    });
+
     //On Clicking the Complete Order Button
     $(".complete-btn").click(function(){
       let location = $(".location").val();
       $(".inputLocation").html(location);
 
       $(".location-info").hide();  
-      $(".response").show();
+      $(".yes-response").show();
       resetDefault();
     });
 
