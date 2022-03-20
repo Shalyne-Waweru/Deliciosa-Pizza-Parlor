@@ -68,3 +68,27 @@ select {
   margin-bottom: 30px;
   border-radius: 10px;
 }
+
+.buttons {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.btn-grey {
+  background-color: #E5E5E5;
+  color: black;
+  font-weight: bold;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 120px;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+}
