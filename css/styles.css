@@ -1,0 +1,13 @@
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  background-image: url('../images/cart-background.jpg');
+  height: 100%;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
