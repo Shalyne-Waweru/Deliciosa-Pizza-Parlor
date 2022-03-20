@@ -11,9 +11,13 @@ $(document).ready(function(){
     let pizzaToppings = $("#toppings option:selected").text();
     let pizzaCrust = $("#crust option:selected").text();
 
-    console.log(pizzaSize);
-    console.log(pizzaToppings);
-    console.log(pizzaCrust);
+    //Get the Pizza Prices
+    let pizzaSizePrize = parseInt($("#size option:selected").val());
+    let pizzaToppingsPrize = parseInt($("#toppings option:selected").val());
+    let pizzaCrustPrize = parseInt($("#crust option:selected").val());
+    let total = pizzaSizePrize + pizzaToppingsPrize + pizzaCrustPrize;
+
+    console.log(total);
   });
 
 });
