@@ -40,3 +40,31 @@ h2 {
   margin-right: auto;
   display: flex;
 }
+
+/*Left Side Styles*/
+.pizza-icon p{
+  text-align: center;
+  font-weight: bold;
+}
+
+.layout {
+  margin-top: 50px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+select {
+  background-color: #FAE2E2;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
