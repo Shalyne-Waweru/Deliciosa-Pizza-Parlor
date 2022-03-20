@@ -52,7 +52,13 @@ $(document).ready(function(){
       console.log(grandTotal);
     });
 
-
+    //On Clcking the Checkout Button
+    $(".btn-checkout").click(function(){
+      $(".checkout-info").show();
+      $(".grandTotal").html("Kshs " + grandTotal);
+      $(".location-info").hide();
+      $(".response").hide();
+    });
 
     $("#btn-order").hide();
     
