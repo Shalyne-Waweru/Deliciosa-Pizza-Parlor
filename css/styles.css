@@ -92,3 +92,11 @@ select {
   height: 50px;
   border-radius: 10px;
 }
+
+/*Right Side Styles*/
+.right-layout {
+  background-color: #E5E5E5;
+  margin-left: 70px;
+  width: 100%;
+  margin-right: -15px;
+}
