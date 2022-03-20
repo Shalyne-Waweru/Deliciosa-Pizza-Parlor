@@ -17,6 +17,8 @@ $(document).ready(function(){
 
   //On Clicking the Order Button
   $("#btn-order").click(function(){
+    $(".table").show();
+    $(".btn-checkout").show();
     //Get the Selected Pizza Size,Toppings and Crust
     let pizzaSize = $("#size option:selected").text();
     let pizzaToppings = $("#toppings option:selected").text();
