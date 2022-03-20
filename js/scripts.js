@@ -68,6 +68,15 @@ $(document).ready(function(){
       $(".delivery-info").hide();
       $(".location-info").show();  
     });
+  
+    //On Clicking the Complete Order Button
+    $(".complete-btn").click(function(){
+      let location = $(".location").val();
+      $(".inputLocation").html(location);
+
+      $(".location-info").hide();  
+      $(".response").show();
+    });
 
     $("#btn-order").hide();
     

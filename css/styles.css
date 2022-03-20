@@ -137,6 +137,10 @@ select {
   font-weight: bold;
 }
 
+.grandTotal{
+  color: #FF0E0E;
+}
+
 .delivery-info {
   margin-bottom: 20px;
 }
