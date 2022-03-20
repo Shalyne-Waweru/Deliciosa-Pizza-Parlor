@@ -89,11 +89,16 @@ $(document).ready(function(){
     //On Clicking the Complete Order Button
     $(".complete-btn").click(function(){
       let location = $(".location").val();
-      $(".inputLocation").html(location);
 
-      $(".location-info").hide();  
-      $(".yes-response").show();
-      resetDefault();
+      if(location === ""){
+        alert("Enter your delivery location!");
+      }
+      else{
+        $(".inputLocation").html(location);
+        $(".location-info").hide();  
+        $(".yes-response").show();
+        resetDefault();
+      }   
     });
 
     $("#btn-order").hide();
