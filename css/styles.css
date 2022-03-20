@@ -41,7 +41,7 @@ h2 {
   display: flex;
 }
 
-/*Left Side Styles*/
+/*Pizza Ordering Section*/
 .pizza-icon p{
   text-align: center;
   font-weight: bold;
@@ -93,7 +93,7 @@ select {
   border-radius: 10px;
 }
 
-/*Right Side Styles*/
+/*Order Summary Section*/
 .right-layout {
   background-color: #E5E5E5;
   margin-left: 70px;
@@ -123,4 +123,41 @@ select {
   float: right;
   margin-top: 20px;
   margin-right: 40px;
+}
+
+/*Checkout:Delivery Info Styles*/
+.checkout-info {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.total-info {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.delivery-info {
+  margin-bottom: 20px;
+}
+
+.yes-btn {
+  background-color: #FFB951;
+  color: black;
+  font-weight: bold;
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 30px;
+  border: 0px;
+}
+
+.no-btn {
+  background-color: #FF0E0E;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0px;
 }
