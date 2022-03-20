@@ -1,5 +1,10 @@
 //Business Logic
-
+function Order(size, toppings, crust, total){
+  this.size = size;
+  this.toppings = toppings;
+  this.crust = crust;
+  this.total = total
+}
 
 //User Interface Logic
 $(document).ready(function(){
@@ -22,6 +27,7 @@ $(document).ready(function(){
     $("#pizzaOrderToppings").html(pizzaToppings);
     $("#pizzaOrderCrust").html(pizzaCrust);
     $("#totalOrderCost").html(total);
+    
   });
 
 });
