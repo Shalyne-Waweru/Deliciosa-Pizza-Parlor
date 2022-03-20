@@ -100,3 +100,15 @@ select {
   width: 100%;
   margin-right: -15px;
 }
+
+.order-txt {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.table{
+  margin-left: 20px;
+  border: none;
+}
