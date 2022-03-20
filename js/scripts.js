@@ -8,6 +8,12 @@ function Order(size, toppings, crust, total){
 
 //User Interface Logic
 $(document).ready(function(){
+  //Reset Select Input Types to Default After Completing an Order
+  function resetDefault(){
+    pizzaSize = $("#size option:selected").text("Select Size");
+    pizzaToppings = $("#toppings option:selected").text("Select Toppings");
+    pizzaCrust = $("#crust option:selected").text("Select Crust");
+  }
 
   //On Clicking the Order Button
   $("#btn-order").click(function(){
@@ -76,6 +82,7 @@ $(document).ready(function(){
 
       $(".location-info").hide();  
       $(".response").show();
+      resetDefault();
     });
 
     $("#btn-order").hide();
