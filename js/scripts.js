@@ -21,12 +21,15 @@ $(document).ready(function(){
     let pizzaToppingsPrize = parseInt($("#toppings option:selected").val());
     let pizzaCrustPrize = parseInt($("#crust option:selected").val());
     let total = pizzaSizePrize + pizzaToppingsPrize + pizzaCrustPrize;
+    let grandTotal = total;
 
     //Set the selected order details in the order summary
     $("#pizzaOrderSize").html(pizzaSize);
     $("#pizzaOrderToppings").html(pizzaToppings);
     $("#pizzaOrderCrust").html(pizzaCrust);
     $("#totalOrderCost").html(total);
+
+    console.log(grandTotal);
 
     //On Clcking the Add Quantity Button
     $("#btn-add-quantity").click(function() {
@@ -38,13 +41,18 @@ $(document).ready(function(){
       let pizzaToppingsPrize = parseInt($("#toppings option:selected").val());
       let pizzaCrustPrize = parseInt($("#crust option:selected").val());
       let total = pizzaSizePrize + pizzaToppingsPrize + pizzaCrustPrize;
+      grandTotal = grandTotal + total;
 
       var newPizzaOrder = new Order(pizzaSize, pizzaToppings, pizzaCrust, total);
 
       var newOrderSummary = '<tr>' + '<td id="pizzaOrderSize">' + newPizzaOrder.size + '</td><td id="pizzaOrderToppings">' + newPizzaOrder.toppings + '</td><td id="pizzaOrderCrust">' + newPizzaOrder.crust + '</td><td id="totalOrderCost">' + newPizzaOrder.total + '</td></tr>'
 
       $("#pizzaOrders").append(newOrderSummary);  
+
+      console.log(grandTotal);
     });
+
+
 
     $("#btn-order").hide();
     
