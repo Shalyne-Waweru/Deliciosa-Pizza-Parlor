@@ -60,6 +60,15 @@ $(document).ready(function(){
       $(".response").hide();
     });
 
+    //On Clicking the Yes Button
+    $(".yes-btn").click(function(){
+      grandTotal = grandTotal + 100;
+      $(".grandTotal").html("now Kshs " + grandTotal);
+
+      $(".delivery-info").hide();
+      $(".location-info").show();  
+    });
+
     $("#btn-order").hide();
     
   });
