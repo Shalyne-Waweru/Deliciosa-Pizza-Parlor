@@ -8,6 +8,12 @@ This project is a simple pizza ordering website that allows users to order diffe
 - [Shalyne Waweru](https://github.com/Shalyne-Waweru)
 - Email: shalynewaweru@gmail.com
 
+## Figma Design Link
+- [Get a sneak peak](https://www.figma.com/file/W1AFY9MzkBgQLwX7UHyGH2/Pizza-Parlor?node-id=0%3A1)
+
+## Website Link
+- [Check it out here](https://shalyne-waweru.github.io/Deliciosa-Pizza-Parlor/)
+
 ## Project setup instructions
 To start using this project use the following commands:
 
