@@ -1,4 +1,5 @@
 # Deliciosa-Pizza-Parlor
+![](images/pizza-parlor.png)
 
 ## Project Description
 This project is a simple pizza ordering website that allows users to order different sizes of pizzas and choose their preferred toppings and crust. A user can also be able to increase the quantity of pizzas to order and get a summary of the total prize of the order. 
